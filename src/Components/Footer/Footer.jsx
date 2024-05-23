@@ -87,7 +87,7 @@ const Footer = () => {
                   {field.label}
                 </label>
                 <input
-                  className="block h-[2.5rem] bg-transparent border-b-1 w-full text-white"
+                  className="block h-[2.5rem] bg-transparent border-b-1 w-full text-white bg-[#1d1d1d]"
                   id={field.id}
                   type={field.id === "email" ? "email" : "text"}
                   value={formData[field.id]}
