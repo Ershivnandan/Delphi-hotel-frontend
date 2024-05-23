@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className=" flex ">
         <div className="py-2">
           <img
-            src="/src/assets/navbar/logo.svg"
+            src="https://i.ibb.co/WgM8tZ1/logo.png"
             alt=""
             className="h-20 max-w-[15.5rem] py-3"
           />

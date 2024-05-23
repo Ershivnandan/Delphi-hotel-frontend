@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <div className="bg-[#1D1D1D]">
       <div className="flex justify-center pt-20 pb-10">
-        <img src="src/assets/logo-white.svg" alt="Logo" />
+        <img src="https://i.ibb.co/bNRfgjF/logo-white.png" alt="Logo" />
       </div>
       <div className="block justify-center text-white text-center gap-5">
         <p className="foot-hover">
