@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="top-0 text-base">
+    <header className="top-0 text-base px-5">
       <div className=" flex ">
         <div className="py-2">
           <img

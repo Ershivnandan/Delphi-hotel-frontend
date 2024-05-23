@@ -1,12 +1,14 @@
 import AllRoutes from "./AllRoutes/AllRoutes"
+import Footer from "./Components/Footer/Footer"
 import Navbar from "./Components/navbar/Navbar"
 
 
 const App = () => {
   return (
-    <div className="px-5 max-w[1550px]">
+    <div className="max-w[1550px]">
     <Navbar/>
     <AllRoutes/>
+    <Footer/>
     </div>
   )
 }
