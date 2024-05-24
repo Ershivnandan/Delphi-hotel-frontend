@@ -5,6 +5,7 @@ import { IoDiamond } from "react-icons/io5";
 import { TbMenu } from "react-icons/tb";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { SlSocialInstagram } from "react-icons/sl";
+import Bottomnav from "../Bottomnav/Bottomnav";
 
 const navItems = [
   "Rooms & Suites",
@@ -82,6 +83,8 @@ const Navbar = () => {
           Reserve
         </button>
       </div>
+
+      <Bottomnav toggleSidebar={toggleSidebar} />
 
       <aside
         id="default-sidebar"
