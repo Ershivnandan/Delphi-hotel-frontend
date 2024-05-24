@@ -72,14 +72,14 @@ const Navbar = () => {
         </div>
         <div className="menu hidden md:flex lg:hidden px-5">
           <div
-            className="flex justify-center gap-2 pt-10"
+            className="flex justify-center gap-2 pt-2 items-center"
             onClick={toggleSidebar}
           >
-            <TbMenu className="text-2xl" />
-            <span className="uppercase text-2xl">Menu</span>
+            <TbMenu className="text-xl" />
+            <span className="uppercase md:text-xl">Menu</span>
           </div>
         </div>
-        <button className="custom-border w-[10%] hidden lg:block md:block text-black hover:bg-[#1D1D1D] hover:text-white transition duration-300">
+        <button className="custom-border lg:w-[10%] md:w-[12%] right-0 hidden lg:block md:block text-black hover:bg-[#1D1D1D] hover:text-white transition duration-300">
           Reserve
         </button>
       </div>

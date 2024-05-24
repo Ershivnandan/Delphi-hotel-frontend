@@ -10,16 +10,16 @@ const Bottomnav = ({ toggleSidebar }) => {
         <li className="w-1/5 border-black border border-solid p-3">
           <button
             onClick={toggleSidebar}
-            className="flex items-center px-3 py-2 w-full h-full rounded-lg bg-white text-[#1d1d1d] transition duration-300"
+            className="flex items-center py-2 w-full h-full rounded-lg bg-white text-[#1d1d1d] transition duration-300"
           >
-            <IoIosMenu className="text-3xl" />
-            <span className="uppercase text-lg">Menu</span>
+            <IoIosMenu className="text-3xl sm:text-md xs:text-md" />
+            <span className="uppercase text-lg  sm:text-md xs:text-sm">Menu</span>
           </button>
         </li>
         <li className="w-1/5 border-l-0 border-b-1 border-t-1 border-r-1 border-black border-solid p-3">
-          <button className="flex items-center px-3 w-full h-full py-2 rounded-lg bg-white text-[#1d1d1d] transition duration-300">
-            <FaPhone className="text-3xl rotate-90 xs:text-md" />
-            <span className="uppercase text-lg sm:text-md">Call</span>
+          <button className="flex items-center w-full h-full py-2 rounded-lg bg-white text-[#1d1d1d] transition duration-300">
+            <FaPhone className="text-3xl rotate-90 sm:text-md xs:text-md" />
+            <span className="uppercase text-lg sm:text-md xs:text-sm">Call</span>
           </button>
         </li>
         <li className="w-3/5 border-l-0 border-b-1 border-t-1 border-r-1 border-black border-solid">

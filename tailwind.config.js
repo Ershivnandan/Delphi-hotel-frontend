@@ -15,7 +15,7 @@ export default{
     },
     screens: {
       'xs': '280px',
-      // => @media (min-width: 480px) { ... }
+      // => @media (min-width: 280px) { ... }
       'sm': '480px',
       // => @media (min-width: 480px) { ... }
 

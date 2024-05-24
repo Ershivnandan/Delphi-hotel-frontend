@@ -4,7 +4,7 @@ import Navbar from "./Components/navbar/Navbar";
 
 const App = () => {
   return (
-    <div className="max-w-[1550px] mx-auto px-4">
+    <div className="max-w-[1550px] mx-auto">
       <Navbar />
       <AllRoutes />
       <Footer />
