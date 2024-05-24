@@ -1,16 +1,15 @@
-import AllRoutes from "./AllRoutes/AllRoutes"
-import Footer from "./Components/Footer/Footer"
-import Navbar from "./Components/navbar/Navbar"
-
+import AllRoutes from "./AllRoutes/AllRoutes";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/navbar/Navbar";
 
 const App = () => {
   return (
-    <div className="max-w[1550px]">
-    <Navbar/>
-    <AllRoutes/>
-    <Footer/>
+    <div className="max-w-[1550px] mx-auto px-4">
+      <Navbar />
+      <AllRoutes />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
