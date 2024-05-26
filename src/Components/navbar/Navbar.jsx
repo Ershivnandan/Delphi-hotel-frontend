@@ -47,7 +47,7 @@ const Navbar = () => {
           <img
             src="https://i.ibb.co/WgM8tZ1/logo.png"
             alt=""
-            className="h-20 max-w-[15.5rem] py-3"
+            className="lg:h-20 md:h-20 sm:h-16 xs:h-16 max-w-[15.5rem] py-3"
           />
         </div>
 

@@ -87,7 +87,7 @@ const HeroSwiper = ({ imageSources }) => {
   };
 
   return (
-    <div className="relative w-full h-full z-0">
+    <div className="relative w-full lg:h-full md:h-full lg:max-h-[100%] md:max-h-[100%] sm:h-screen sm:max-h-[calc(100vh-15rem)]">
       <AnimatePresence>
         {introVisible && (
           <motion.div
@@ -99,13 +99,13 @@ const HeroSwiper = ({ imageSources }) => {
             onAnimationComplete={() => setIntroVisible(false)}
           >
             <div className="text-white text-center flex justify-center">
-                <img src="https://i.ibb.co/bNRfgjF/logo-white.png" alt="Logo" />
+              <img src="https://i.ibb.co/bNRfgjF/logo-white.png" alt="Logo" />
             </div>
           </motion.div>
         )}
       </AnimatePresence>
       <motion.div
-        className="w-full h-full"
+        className="w-full lg:h-full md:h-full sm:h-screen lg:max-h-[100%] md:max-h-[100%] sm:max-h-[calc(100vh-15rem)]"
         variants={swiperMotion}
         initial="initial"
         animate="inPreview"
@@ -132,10 +132,16 @@ const HeroSwiper = ({ imageSources }) => {
               translate: ["100%", 0, 0],
             },
           }}
+          breakpoints={{
+            480: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+          }}
         >
           {imageSources.map((src, index) => (
-            <SwiperSlide key={index}>
-              <img src={src} alt={`Slide ${index + 1}`} />
+            <SwiperSlide key={index} className="w-full lg:h-full md:h-full sm:h-screen lg:max-h-[100%] md:max-h-[100%] sm:max-h-[calc(100vh-15rem)]">
+              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
             </SwiperSlide>
           ))}
         </Swiper>

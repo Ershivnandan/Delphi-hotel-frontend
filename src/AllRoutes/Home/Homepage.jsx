@@ -13,8 +13,14 @@ const Homepage = () => {
   ]
   return (
     <div>
+      <section>
+
       <HeroSwiper imageSources={swiperSources}/>
-      {/* <ReactSlick imageSources={swiperSources}/> */}
+      {/* <div className="absolute z-50 top-1/2 ">
+        <p className="text-white text-3xl text-left ml-14">THE NEW</p>
+        <span className="text-white text-7xl text-center">Center of L.A. Culture</span>
+      </div> */}
+      </section>
     </div>
   )
 }
