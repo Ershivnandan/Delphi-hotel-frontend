@@ -127,7 +127,7 @@ const Footer = () => {
               ))}
             </div>
 
-            <div className="px-4 items-center flex lg:flex-row xs:flex-col justify-between gap-10 mt-10">
+            <div className="px-4 items-center flex lg:flex-row xs:flex-col justify-between gap-10 mt-10  lg:py-0 md:py-0 xs:py-10">
               <div className="flex justify-start items-center">
                 <input
                   id="privecyCheck"
@@ -157,10 +157,10 @@ const Footer = () => {
                   and offers.
                 </label>
               </div>
-              <span className="flex justify-start items-center">
+              <span className="flex justify-start items-center ">
                 <button>
 
-                <div className="signup-container">
+                <div className="signup-container me-10">
                   <span className="line"></span>
                   <span className="text-white text-[16px] cursor-pointer flex items-center">
                     Sign Up{" "}

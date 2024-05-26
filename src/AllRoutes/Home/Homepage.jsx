@@ -1,11 +1,20 @@
+// import ReactSlick from "../../Components/ReactSlick/ReactSlick"
+import HeroSwiper from "../../Components/Swiper/HeroSwiper"
 
 
 const Homepage = () => {
 
-    console.log("running")
+    
+  const swiperSources = [
+    "https://i.ibb.co/jGqmgh4/delphi-homepage-header-02-64be922fb6da0.webp",
+    "https://i.ibb.co/dgfMtzH/delphi-homepage-header-03-64be9232a7dca.webp",
+    "https://i.ibb.co/qxhzH7Q/delphi-homepage-header-01-64be922c9b933.webp"
+
+  ]
   return (
     <div>
-      {/* <div className="text-black text-center">Hello shiv</div> */}
+      <HeroSwiper imageSources={swiperSources}/>
+      {/* <ReactSlick imageSources={swiperSources}/> */}
     </div>
   )
 }

@@ -41,8 +41,8 @@ const Navbar = () => {
     ));
 
   return (
-    <header className="top-0 text-base">
-      <div className=" flex justify-center w-full">
+    <header className="top-0 text-base relative z-30 bg-white">
+      <div className=" flex justify-center w-full z-[99]">
         <div className="py-2">
           <img
             src="https://i.ibb.co/WgM8tZ1/logo.png"
