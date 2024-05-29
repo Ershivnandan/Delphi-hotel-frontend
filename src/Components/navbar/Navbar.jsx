@@ -100,12 +100,11 @@ const Navbar = () => {
           <ul className="space-y-2 font-medium grid justify-center text-center gap-10 text-lg">
             {renderNavItems()}
             <li className="flex justify-center">
-              <span className=" border-1 border-black border-solid rounded-full w-10 h-10 text-center items-center"> 
-              <SlSocialInstagram  className="translate-x-[11px] translate-y-[11px]"/>
+              <span className=" border-1 border-black border-solid rounded-full w-10 h-10 text-center items-center">
+                <SlSocialInstagram className="translate-x-[11px] translate-y-[11px]" />
               </span>
             </li>
           </ul>
-
         </div>
       </aside>
     </header>

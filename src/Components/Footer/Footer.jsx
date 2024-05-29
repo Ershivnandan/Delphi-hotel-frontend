@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import "./footer.css";
 import { motion } from "framer-motion";
@@ -159,14 +158,12 @@ const Footer = () => {
               </div>
               <span className="flex justify-start items-center ">
                 <button>
-
-                <div className="signup-container me-10">
-                  <span className="line"></span>
-                  <span className="text-white text-[16px] cursor-pointer flex items-center">
-                    Sign Up{" "}
-                    <TfiArrowRight className="w-8 text-xl" />
-                  </span>
-                </div>
+                  <div className="signup-container me-10">
+                    <span className="line"></span>
+                    <span className="text-white text-[16px] cursor-pointer flex items-center">
+                      Sign Up <TfiArrowRight className="w-8 text-xl" />
+                    </span>
+                  </div>
                 </button>
               </span>
             </div>
