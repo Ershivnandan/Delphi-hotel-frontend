@@ -64,7 +64,7 @@ const DelphiDetail = () => {
 
   return (
     <>
-      <div className="xl:flex lg:flex md:block sm:block xs:block justify-center relative items-center border-1 border-[#707070] border-solid">
+      <div className="xl:flex lg:flex md:block sm:block xs:block justify-center relative items-center border-1 border-[#707070] border-solid py-10">
         <div className="xl:w-[25%] lg:w-[25%] md:w-full sm:w-full xs:w-full xl:py-[2rem] lg:py-[2rem] md:py-10 sm:py-10 xs:py-10  flex justify-center items-center ">
           <h1 className="text-5xl">
             THE DELPHI
@@ -81,7 +81,7 @@ const DelphiDetail = () => {
               animate={{ rotate: 360 }}
               transition={{
                 repeat: Infinity,
-                duration: 60,
+                duration: 100,
                 ease: "linear",
               }}
               src="./src/assets/Home/slider-texture.svg"
@@ -93,6 +93,7 @@ const DelphiDetail = () => {
               effect="fade"
               autoplay={{
                 delay: 3000,
+                duration: 100,
                 disableOnInteraction: false,
               }}
               onSlideChange={(swiper) => {
@@ -115,7 +116,7 @@ const DelphiDetail = () => {
           </div>
         </div>
         <div className="xl:w-[25%] lg:w-[25%]  max-w-[56rem] md:w-full sm:w-full xs:w-full ">
-          <div className=" xl:absolute lg:absolute md:relative sm:relative xs:relative top-0 xl:right-14 lg:right-14 md:right-0 sm:right-0 xs:right-0 xl:left-auto lg:left-auto md:left-14 sm:left-14 xs:left-14 ">
+          <div className="py-10 xl:absolute lg:absolute md:relative sm:relative xs:relative top-0 xl:right-14 lg:right-14 md:right-0 sm:right-0 xs:right-0 xl:left-auto lg:left-auto md:left-14 sm:left-14 xs:left-14 ">
             <motion.span
               key={currentNumber}
               initial={{ opacity: 0 }}
