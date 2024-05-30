@@ -1,7 +1,7 @@
 import { Datepicker } from "flowbite-datepicker";
 import "./availibilityCheck.css";
 import { motion } from "framer-motion";
-import DatepickerComp from "../DatePicker/DatepickerComp";
+import DatepickerComp from "../../DatePicker/DatepickerComp";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 
@@ -75,7 +75,7 @@ const AvailibiltyCheck = () => {
   };
 
   return (
-    <div>
+    <div className="border-1 border-[#707070] border-solid">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="relative xl:flex lg:flex md:flex sm:hidden xs:hidden xl:w-full lg:w-full md:w-full border border-[#1d1d1d] border-solid">
           <div
@@ -84,7 +84,7 @@ const AvailibiltyCheck = () => {
           >
             {date.startDate ? date.startDate.format("DD-MM-YYYY") : "Checkin"}
           </div>
-          <div className={`w-[15%] ${classes.className}`}>
+          <div className={`w-[15%] ${classes.className}`} onClick={toggleCalendar}>
             {date.endDate ? date.endDate.format("DD-MM-YYYY") : "Checkout"}
           </div>
           <div className={`w-[15%] ${classes.className}`}>

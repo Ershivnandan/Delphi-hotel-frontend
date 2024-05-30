@@ -5,7 +5,8 @@ import { IoDiamond } from "react-icons/io5";
 import { TbMenu } from "react-icons/tb";
 import { RiCloseLargeLine } from "react-icons/ri";
 import { SlSocialInstagram } from "react-icons/sl";
-import Bottomnav from "../Bottomnav/Bottomnav";
+import Bottomnav from "../HomePageComponents/Bottomnav/Bottomnav"
+
 
 const navItems = [
   "Rooms & Suites",

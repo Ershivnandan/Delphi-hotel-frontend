@@ -1,5 +1,6 @@
 
-import AvailibiltyCheck from "../../Components/AvailibiltyCheck/AvailibiltyCheck"
+import AvailibiltyCheck from "../../Components/HomePageComponents/AvailibiltyCheck/AvailibiltyCheck"
+import DelphiDetail from "../../Components/HomePageComponents/DelphiDetail/DelphiDetail";
 import HeroSwiper from "../../Components/Swiper/HeroSwiper"
 
 
@@ -21,6 +22,9 @@ const Homepage = () => {
       </section>
       <section>
         <AvailibiltyCheck/>
+      </section>
+      <section>
+        <DelphiDetail/>
       </section>
     </div>
   )
