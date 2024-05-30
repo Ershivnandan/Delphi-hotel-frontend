@@ -11,7 +11,7 @@ const Homepage = () => {
 
   return (
     <div>
-      <section className="px-5 py-5">
+      <section className="px-5">
         <HeroSwiper imageSources={swiperSources} />
       </section>
       <section className="px-5 pt-5">
