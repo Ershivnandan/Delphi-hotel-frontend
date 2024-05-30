@@ -116,14 +116,14 @@ const DelphiDetail = () => {
           </div>
         </div>
         <div className="xl:w-[25%] lg:w-[25%]  max-w-[56rem] md:w-full sm:w-full xs:w-full ">
-          <div className="py-10 xl:absolute lg:absolute md:relative sm:relative xs:relative top-0 xl:right-14 lg:right-14 md:right-0 sm:right-0 xs:right-0 xl:left-auto lg:left-auto md:left-14 sm:left-14 xs:left-14 ">
+          <div className="xl:py-0 lg:py-0 md:py-5 sm:py-5 xs:py-5 xl:px-0 lg:px-0 md:px-14 sm:px-14 xs:px-14 xl:absolute lg:absolute md:relative sm:absolute xs:relative top-0 xl:right-12 lg:right-12 md:right-0 sm:left-0 xs:right-0 xl:left-auto lg:left-auto md:top-14 sm:top-auto xs:top-2 ">
             <motion.span
               key={currentNumber}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1.5, delay: 0.05 }}
-              className="absolute text-2xl text-black"
+              className="text-2xl text-black"
             >
               {currentNumber}
             </motion.span>
