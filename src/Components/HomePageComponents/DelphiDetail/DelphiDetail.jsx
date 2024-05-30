@@ -84,7 +84,7 @@ const DelphiDetail = () => {
                 duration: 100,
                 ease: "linear",
               }}
-              src="public/slider-texture.svg"
+              src="/slider-texture.svg"
               alt="svg"
             />
             <Swiper
