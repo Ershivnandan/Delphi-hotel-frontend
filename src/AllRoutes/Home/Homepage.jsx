@@ -1,3 +1,4 @@
+import AllRooms from "../../Components/HomePageComponents/AllRooms/AllRooms";
 import AvailibiltyCheck from "../../Components/HomePageComponents/AvailibiltyCheck/AvailibiltyCheck";
 import DelphiDetail from "../../Components/HomePageComponents/DelphiDetail/DelphiDetail";
 import HeroSwiper from "../../Components/Swiper/HeroSwiper";
@@ -19,6 +20,9 @@ const Homepage = () => {
       </section>
       <section className="px-5 pb-10">
         <DelphiDetail />
+      </section>
+      <section className="flex">
+        <AllRooms/>
       </section>
     </div>
   );
