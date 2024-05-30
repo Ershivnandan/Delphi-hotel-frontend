@@ -140,16 +140,27 @@ const HeroSwiper = ({ imageSources }) => {
           }}
         >
           {imageSources.map((src, index) => (
-            <SwiperSlide key={index} className="w-full lg:h-full md:h-full sm:h-screen lg:max-h-[100%] md:max-h-[100%] sm:max-h-[calc(100vh-15rem)] xs:h-screen xs:max-h-[calc(100vh-15rem)]">
-              <img src={src} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+            <SwiperSlide
+              key={index}
+              className="w-full lg:h-full md:h-full sm:h-screen lg:max-h-[100%] md:max-h-[100%] sm:max-h-[calc(100vh-15rem)] xs:h-screen xs:max-h-[calc(100vh-15rem)]"
+            >
+              <img
+                src={src}
+                alt={`Slide ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <div className="absolute block justify-center z-50 top-[70%] left-1/4">
-        <p className="text-white xl:text-3xl lg:text-3xl md:text-2xl sm:text2xl xs:text2xl text-left ml-14">THE NEW</p>
-        <span className="text-white xl:text-7xl lg:text-7xl md:text-6xl sm:text-6xl xs:text-6xl text-center">Center of L.A. Culture</span>
-      </div>
+        {/* <div className="absolute block justify-center z-50 top-[70%] left-1/4">
+          <p className="text-white xl:text-3xl lg:text-3xl md:text-2xl sm:text2xl xs:text2xl text-left ml-14">
+            THE NEW
+          </p>
+          <span className="text-white xl:text-7xl lg:text-7xl md:text-6xl sm:text-6xl xs:text-6xl text-center">
+            Center of L.A. Culture
+          </span>
+        </div> */}
       </motion.div>
     </div>
   );

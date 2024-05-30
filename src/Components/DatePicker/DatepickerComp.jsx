@@ -39,10 +39,6 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
     logSelectedDates();
   }, [startDate, endDate]);
 
-  // useEffect(() => {
-  //   onDateChange(startDate, endDate);
-  // }, [startDate, endDate]);
-
   const handlePrevMonth = () => {
     if (
       today.month() === currentDate.month() &&
@@ -55,7 +51,7 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
   };
 
   return (
-    <div className="flex gap-2 sm:divide-x justify-center sm:w-full mx-auto h-screen sm:flex-row flex-col">
+    <div className="flex gap-2 h-2/3 sm:divide-x justify-center sm:w-full mx-auto sm:flex-row flex-col">
       {/* Current Month Calendar */}
       <div className="w-96 h-[24rem] border-1 border-solid border-[#707070]">
         <div className="flex justify-start items-center text-center bg-[#254844] py-3 text-white">
