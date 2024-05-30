@@ -22,14 +22,10 @@ const AllRooms = () => {
       </div>
       <div className="z-20 absolute max-w-[83rem] max-h-[23rem] bg-white right-12 bottom-16 flex justify-center">
         <div className="relative ps-2 pe-16 flex flex-col text-left">
-            <div className="relative top-2 left-0 block">
-                Rooms
-            </div>
-            <div className="w-[10rem] flex justify-center items-center relative translate-y-16 ">
-                <h1 className="text-3xl">
-                PEACE & QUIET
-                </h1>
-            </div>
+          <div className="relative top-2 left-0 block">Rooms</div>
+          <div className="w-[10rem] flex justify-center items-center relative translate-y-16 ">
+            <h1 className="text-3xl">PEACE & QUIET</h1>
+          </div>
         </div>
         <div className="px-[2rem] py-[3rem] border-l-1 border-solid border-[#707070] max-w-[40rem]">
           <div className="">
