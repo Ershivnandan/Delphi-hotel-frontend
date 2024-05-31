@@ -26,10 +26,10 @@ const Homepage = () => {
       <section className="flex">
         <AllRooms/>
       </section>
-      <section>
+      <section className="">
         <Dining/>
       </section>
-      <section>
+      <section className="px-5">
         <Events/>
       </section>
     </div>
