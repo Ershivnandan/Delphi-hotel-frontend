@@ -2,6 +2,7 @@ import AllRooms from "../../Components/HomePageComponents/AllRooms/AllRooms";
 import AvailibiltyCheck from "../../Components/HomePageComponents/AvailibiltyCheck/AvailibiltyCheck";
 import DelphiDetail from "../../Components/HomePageComponents/DelphiDetail/DelphiDetail";
 import Dining from "../../Components/HomePageComponents/Dining/Dining";
+import Events from "../../Components/HomePageComponents/Events/Events";
 import HeroSwiper from "../../Components/Swiper/HeroSwiper";
 
 const Homepage = () => {
@@ -27,6 +28,9 @@ const Homepage = () => {
       </section>
       <section>
         <Dining/>
+      </section>
+      <section>
+        <Events/>
       </section>
     </div>
   );

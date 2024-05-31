@@ -5,7 +5,7 @@ import { TfiArrowRight } from "react-icons/tfi";
 
 const Dining = () => {
   return (
-    <div className=" border-b-1 border-r-1 border-l-1 border-[#707070] border-solid">
+    <div className=" border-r-1 border-l-1 border-[#707070] border-solid">
       <div className="relative">
         <div className="relative z-10 w-full h-full py-10 mb-20 overflow-hidden flex justify-center xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col">
           <div className="absolute top-0 left-0 w-full h-1/2 bg-[#1d1d1d]"></div>
@@ -21,8 +21,8 @@ const Dining = () => {
             </div>
           </div>
         </div>
-        <div className="absolute xl:top-[12%] lg:top-[12%] md:top-[50%] sm:top-[70%] xs:top-[70%] w-full flex justify-center">
-          <p className="z-0 relative uppercase text-[10rem] xl:text-[23rem] lg:text-[18rem] md:text-[14rem] sm:text-[5rem] xs:text-[5rem] text-black">
+        <div className=" px-5  absolute xl:top-[12%] lg:top-[12%] md:top-[50%] sm:top-[70%] xs:top-[70%] w-full flex justify-center">
+          <p className="z-0 relative uppercase text-[10rem] xl:text-[23rem] lg:text-[18rem] md:text-[14rem] sm:text-[5rem] xs:text-[5rem] text-[#1D1D1D]">
             Dining
           </p>
           <motion.p
@@ -41,13 +41,13 @@ const Dining = () => {
           </motion.p>
         </div>
       </div>
-      <div className="relative xl:-mt-[25rem] lg:-mt-[25rem] md:-mt-20 sm:-mt-20 xs:-mt-20 xl:w-[44%] lg:w-[44%] md:w-full sm:w-full xs:w-full xl:ps-10 lg:ps-10 md:ps-2 sm:ps-2 xs:ps-2 xl:pe-25 lg:pe-20 md:pe-5 sm:pe-5 xs:pe-5 xl:pt-5 lg:pt-5 md:-pt-5 sm:-pt-5 xs:-pt-5 pb-10">
+      <div className="px-5  relative xl:-mt-[25rem] lg:-mt-[25rem] md:-mt-20 sm:-mt-20 xs:-mt-20 xl:w-[44%] lg:w-[44%] md:w-full sm:w-full xs:w-full xl:ps-10 lg:ps-10 md:ps-2 sm:ps-2 xs:ps-2 xl:pe-25 lg:pe-20 md:pe-5 sm:pe-0 xs:pe-0 xl:pt-5 lg:pt-5 md:-pt-5 sm:-pt-5 xs:-pt-5 pb-10">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, delay: 0.05 }}
-          className="relative xl:px-5 lg:px-5 md:px-14 sm:px-14 xs:px-14 xl:py-0 lg:py-0 md:py-10 sm:py-10 xs:py-10"
+          className="relative xl:px-5 lg:px-5 md:px-14 sm:px-10 xs:px-10 xl:py-0 lg:py-0 md:py-10 sm:py-10 xs:py-10"
         >
           <h1 className="text-4xl text-black pe-14 uppercase">
             INTRIGUE THE APPETITE
