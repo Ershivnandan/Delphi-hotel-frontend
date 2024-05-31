@@ -1,8 +1,10 @@
 import AllRooms from "../../Components/HomePageComponents/AllRooms/AllRooms";
 import AvailibiltyCheck from "../../Components/HomePageComponents/AvailibiltyCheck/AvailibiltyCheck";
 import DelphiDetail from "../../Components/HomePageComponents/DelphiDetail/DelphiDetail";
+import DelphiMap from "../../Components/HomePageComponents/DelphiMap/DelphiMap";
 import Dining from "../../Components/HomePageComponents/Dining/Dining";
 import Events from "../../Components/HomePageComponents/Events/Events";
+import ImageGallery from "../../Components/HomePageComponents/ImageGallery/ImageGallery";
 import HeroSwiper from "../../Components/Swiper/HeroSwiper";
 
 const Homepage = () => {
@@ -24,13 +26,19 @@ const Homepage = () => {
         <DelphiDetail />
       </section>
       <section className="flex">
-        <AllRooms/>
+        <AllRooms />
       </section>
       <section className="">
-        <Dining/>
+        <Dining />
       </section>
-      <section className="px-5">
-        <Events/>
+      <section className="px-5 z-50 relative">
+        <Events />
+      </section>
+      <section className="z-40 bg-cover min-h-[50rem] -mt-[10rem] items-center flex justify-center mx-auto relative bg-center bg-white xl:bg-[url('https://i.ibb.co/6FHFP8P/delphi-homepage-map-64be9613eb4a4.jpg')] lg:bg-[url('https://i.ibb.co/6FHFP8P/delphi-homepage-map-64be9613eb4a4.jpg')] md:bg-[url('https://i.ibb.co/6FHFP8P/delphi-homepage-map-64be9613eb4a4.jpg')]">
+        <DelphiMap />
+      </section>
+      <section >
+        <ImageGallery />
       </section>
     </div>
   );

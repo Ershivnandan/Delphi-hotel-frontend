@@ -49,16 +49,30 @@ const Events = () => {
 
   return (
     <>
-      <div className="border-r-1 border-l-1 border-b-1 border-solid border-[#707070] mt-10 mb-5">
+      <div className="z-10 border-r-1 border-l-1 border-b-1 border-solid border-[#707070] mt-10">
         <div className="flex justify-center xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col bg-[#254844]">
-          <div className="xl:w-[70%] lg:w-[70%] md:w-full sm:w-full xs:w-full">
+          <div className="xl:w-[70%] lg:w-[70%] md:w-full sm:w-full xs:w-full relative overflow-hidden">
+            <motion.div
+              className="bg-[#1d1d1d] absolute inset-0 flex items-center justify-center"
+              initial={{ x: 0 }}
+              whileInView={{ x: "100%" }}
+              exit={{ width: "0%", x: "100%" }}
+              transition={{ duration: 2, ease: "easeInOut" }}
+            >
+              <img
+                src="https://i.ibb.co/bNRfgjF/logo-white.png"
+                alt="Placeholder Image"
+              />
+            </motion.div>
             <img
               src="https://i.ibb.co/0s2q2XC/delphi-homepage-events-64be95d53df4d.jpg"
               alt="delphi-homepage-events-64be95d53df4d"
               border="0"
+              className="w-full h-auto object-cover"
             />
           </div>
-          <div className="relative xl:w-[30%] lg:w-[30%] md:w-full sm:w-full xs:w-full flex justify-center items-center xl:flex-col lg:flex-col md:flex-col sm:flex-col xs:flex-col">
+
+          <div className="bg-[#254844] z-10 relative xl:w-[30%] lg:w-[30%] md:w-full sm:w-full xs:w-full flex justify-center items-center xl:flex-col lg:flex-col md:flex-col sm:flex-col xs:flex-col">
             <p className="xl:absolute lg:absolute md:relative sm:relative xs:relative top-0 right-0 text-white uppercase xl:text-8xl lg:text-7xl md:text-8xl sm:text-7xl xs:text-6xl -mt-3">
               events
             </p>
