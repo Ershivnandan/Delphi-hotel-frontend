@@ -19,7 +19,7 @@ const Dining = () => {
           </div>
         </div>
       </div>
-      <div className="absolute xl:top-[12%] lg:top-[12%] md:top-[50%] sm:top-[70%] xs:top-[70%]v w-full flex justify-center">
+      <div className="absolute xl:top-[12%] lg:top-[12%] md:top-[50%] sm:top-[70%] xs:top-[70%] w-full flex justify-center">
         <p className="z-0 relative uppercase text-[10rem] xl:text-[23rem] lg:text-[18rem] md:text-[14rem] sm:text-[5rem] xs:text-[5rem] text-black">Dining</p>
         <motion.p
           initial={{
