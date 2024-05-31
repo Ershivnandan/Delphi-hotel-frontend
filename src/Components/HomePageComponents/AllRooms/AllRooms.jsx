@@ -5,7 +5,7 @@ import "./Allrooms.css";
 
 const AllRooms = () => {
   return (
-    <div className=" relative w-[100vw] h-full bg-[#1d1d1d] py-2 my-10 overflow-hidden flex justify-center xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col">
+    <div className=" relative w-[100vw] h-full bg-[#1d1d1d] py-2 mt-10 overflow-hidden flex justify-center xl:flex-row lg:flex-row md:flex-col sm:flex-col xs:flex-col">
       <div className="w-full h-full px-5 py-10 flex justify-center overflow-hidden ">
         <motion.div
           className="bg-[#1d1d1d] w-full h-full z-10 absolute"
