@@ -5,7 +5,7 @@ import { IoIosMenu } from "react-icons/io";
 // eslint-disable-next-line react/prop-types
 const Bottomnav = ({ toggleSidebar }) => {
   return (
-    <div className="w-full fixed z-20 bottom-0 left-0 right-0 bg-white text-[#1d1d1d] hidden xs:flex justify-center items-center sm:flex lg:hidden md:hidden xl:hidden">
+    <div className="w-full fixed z-[99] bottom-0 left-0 right-0 bg-white text-[#1d1d1d] hidden xs:flex justify-center items-center sm:flex lg:hidden md:hidden xl:hidden">
       <ul className="xs:flex hidden justify-center w-full">
         <li className="w-1/5 border-black border border-solid p-3">
           <button
