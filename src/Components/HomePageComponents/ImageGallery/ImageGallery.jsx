@@ -58,7 +58,7 @@ const ImageGallery = () => {
   };
   return (
     <>
-      <div className="relative mb-[30rem] grid grid-cols-2 gap-8">
+      <div className="relative mb-[30rem] custom-grid grid-cols-2 gap-8">
         <div className="z-10 relative flex xl:flex-col lg:flex-col md:flex-col sm:flex-row xs:flex-row">
           <div
             className="image-container xl:left-[10rem] lg:left-[10rem] md:left-[10rem] sm:left-1 xs:left-1 h-[400px] w-[309px]  group"

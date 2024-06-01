@@ -53,7 +53,7 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
   return (
     <div className="flex gap-2 h-2/3 sm:divide-x justify-center sm:w-full mx-auto sm:flex-row flex-col">
       {/* Current Month Calendar */}
-      <div className="w-96 h-[24rem] border-1 border-solid border-[#707070]">
+      <div className="w-96 h-[25rem] border-1 border-solid border-[#707070]">
         <div className="flex justify-start items-center text-center bg-[#254844] py-3 text-white">
           <div className="flex gap-10 items-start">
             <RiArrowLeftSFill
@@ -68,7 +68,7 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
           </div>
         </div>
 
-        <div className="grid grid-cols-7">
+        <div className="grid grid-cols-7 ">
           {days.map((day, index) => (
             <h1
               key={index}
@@ -130,7 +130,7 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
       </div>
 
       {/* Next Month Calendar */}
-      <div className="w-96 h-[24rem] border-1 border-solid border-[#707070]">
+      <div className="w-96 h-[25rem] border-1 border-solid border-[#707070]">
         <div className="flex justify-end items-center text-center bg-[#254844] py-3 text-white">
           <div className="flex-1 flex justify-center items-center">
             <h1 className="select-none font-semibold uppercase text-2xl">
@@ -177,7 +177,7 @@ const DatepickerComp = ({ closeCalendar, onDateChange }) => {
               return (
                 <div
                   key={index}
-                  className={`p-2 text-center h-12 grid place-content-center text-sm border-t`}
+                  className={`p-2 text-center h-12 grid gap-0 place-content-center text-sm border-t`}
                 >
                   <h1
                     className={cn(
